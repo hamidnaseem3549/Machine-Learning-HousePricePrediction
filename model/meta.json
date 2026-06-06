@@ -1,0 +1,37 @@
+{
+  "model_type": "Random Forest",
+  "r2": 0.8067,
+  "trained_at": "2026-04-25T13:49:09",
+  "results": {
+    "Linear Regression": {
+      "r2": 0.597,
+      "rmse": 72668.54,
+      "mae": 50888.66,
+      "train_time": 0.027
+    },
+    "Ridge": {
+      "r2": 0.597,
+      "rmse": 72666.35,
+      "mae": 50888.32,
+      "train_time": 0.014
+    },
+    "Lasso": {
+      "r2": 0.597,
+      "rmse": 72667.02,
+      "mae": 50888.05,
+      "train_time": 3.869
+    },
+    "Random Forest": {
+      "r2": 0.8067,
+      "rmse": 50330.95,
+      "mae": 32329.32,
+      "train_time": 7.515
+    },
+    "Gradient Boosting": {
+      "r2": 0.7806,
+      "rmse": 53616.35,
+      "mae": 36591.41,
+      "train_time": 12.126
+    }
+  }
+}
